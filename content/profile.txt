@@ -1,0 +1,28 @@
+# YOUR DETAILS. Change the text after the colon. Keep the label (Name:, Role:, ...) as it is.
+# To hide something (e.g. LinkedIn or Phone), leave the text after the colon empty.
+#
+# Typing:   the words that "type" themselves in the header. Separate with |
+# LinkedIn: paste your full profile link, e.g. https://www.linkedin.com/in/your-name
+# YouTube:  paste your channel link, e.g. https://www.youtube.com/@your-channel
+# Photo:    upload a picture to the "assets" folder, then write e.g. assets/photo.jpg
+# CV:       to update your CV, upload a new file called CV.pdf into "assets" (replace the old one)
+# GitHub:   just your username. Your live GitHub activity is shown automatically.
+# Bio:      each new line becomes a new paragraph.
+
+Name: Sashreek Dhaimodkar
+Role: AI / ML Engineer · MSc Computer Science
+Typing: LLM Training | RAG Systems | MLOps | Federated Learning | Scalable AI
+Tagline: Turning innovative AI ideas into practical, scalable systems that combine data, algorithms, and real-world impact.
+Bio: By day, I'm a Computer Science master's student at Paderborn University, teaching **large language models** to speak more languages than I do (they're winning, but my German is at A2, so it's close). I've shipped enterprise insurance software, trained models across machines that never met each other (**federated learning**), and I currently build an **AI tutor for a VR chemistry lab**, so students can blow things up safely while a RAG pipeline explains why.
+My daily stack is **Python, C++, SQL and Linux**, plus a lot of nvidia-smi and politely asking Slurm when my H100 job will finally start. I like turning "wouldn't it be cool if..." ideas into systems that actually run in production.
+By night, the GPUs finally get a break from training and do what they were born for: I **stream games live on YouTube**. Same focus, same debugging skills, way more respawns. Come say hi in the chat.
+Location: Paderborn, Germany
+Email: sashreek@mail.uni-paderborn.de
+Phone:
+GitHub: shreekcode
+LinkedIn:
+YouTube:
+Website:
+CV: assets/CV.pdf
+Status: Open to opportunities
+Photo:

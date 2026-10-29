@@ -1,0 +1,29 @@
+# WORK EXPERIENCE. One block per job, newest first. Separate blocks with a line of three dashes (---).
+# Lines starting with "- " are bullet points. Wrap words in **double stars** to make them bold.
+
+Title: Student Assistant
+Company: Paderborn University (VirtuChem Lab)
+Date: 03/2026 – Present
+Tags: Unity, C#, Python, FastAPI, RAG, ChromaDB
+- Developing features for **VirtuTutor2**, a Meta Quest 3 VR chemistry lab with an **AI tutoring system** built in Unity (C#), Python and FastAPI.
+- Implementing a **RAG-based personalization system** using ChromaDB and sentence transformers to deliver history-aware LLM tutoring responses.
+---
+Title: Associate Software Engineer
+Company: OneShield Software
+Date: 07/2023 – 08/2024
+Tags: Python, Java, PL/SQL, AWS, Agile
+- Designed and developed multiple forms and modules for enterprise insurance software using **Python, Java, XML, PL/SQL** and proprietary no-code software.
+- Diagnosed and resolved complex system errors, improving system reliability and user experience.
+- Conducted daily **system health checks** to ensure uptime and performance stability.
+- Integrated and maintained **AWS services** for deployment and monitoring.
+- Collaborated with QA and product teams to deliver scalable and secure solutions in an **Agile / Scrum** environment.
+---
+Title: ML Intern
+Company: Persistent Systems
+Date: 08/2022 – 10/2022
+Tags: Federated Learning, Flower, MLflow, Docker, AWS
+- Contributed to a **Federated Learning Platform** enabling distributed model training.
+- Implemented the **Flower** framework for federated learning workflows across multiple nodes.
+- Logged and monitored ML experiments with **MLflow**, improving model versioning and reproducibility.
+- Containerized applications with **Docker** and built interactive interfaces with **Streamlit** and **FastAPI**.
+- **Deployed the complete application on AWS** for scalable and reliable performance.

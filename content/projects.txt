@@ -1,0 +1,33 @@
+# PROJECTS. One block per project, newest first. Separate blocks with a line of three dashes (---).
+# Optional lines: Link: (a URL, shows a "View" button), Featured: yes (highlights the card)
+
+Title: Training a Multilingual Large Language Model
+Where: Project Group · Data Science Group, Paderborn University
+Date: 04/2025 – Present
+Featured: yes
+Tags: LLM, LoRA/QLoRA, XLoRA, HPC, Slurm, H100
+- Developing and optimizing a large-scale **multilingual language model** focused on scalability, efficiency and low-resource language generalization.
+- Built fine-tuning pipelines with **cross-lingual transfer learning, LoRA/QLoRA adapters** and experimental **XLoRA** mixtures.
+- Running distributed training on the **PC2 OTUS HPC cluster** with **NVIDIA H100 GPUs**.
+- Wrote training scripts, preprocessing pipelines and monitoring utilities for fault-tolerant, reproducible experiments.
+---
+Title: Synthetic MRI Generation
+Where: Final Year Project · Predicting MRI progression in Alzheimer's disease
+Date: 10/2022 – 06/2023
+Tags: Deep Learning, U-Net, Medical Imaging
+- Developed a **deep learning model** to simulate MRI progression for Alzheimer's patients, supporting early diagnosis and treatment planning.
+- Customized and optimized a **U-Net architecture** for image generation and segmentation.
+- Built an interactive UI for inference and visualization, usable by non-technical people.
+---
+Title: Sentiment Analysis on Facebook Comments
+Where: Mini Project
+Date: 06/2022
+Tags: Python, NLP, NLTK, Pandas
+- Python application classifying comments as positive, negative or neutral.
+- Text preprocessing, tokenization and feature extraction with **NLTK** and **Pandas**, plus visual insights.
+---
+Title: Project Management System
+Where: Mini Project
+Date: 08/2022
+Tags: C#, Oracle, Windows Forms
+- Windows Forms platform in C# with login, register, add and delete flows backed by an **Oracle** database.

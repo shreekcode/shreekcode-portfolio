@@ -1,0 +1,10 @@
+# LATEST UPDATES. Add a new block at the TOP, separated by a line with three dashes (---).
+# Date format: YYYY-MM-DD
+
+Date: 2026-03-01
+Title: Started as Student Assistant at Paderborn University
+Text: Building features for VirtuTutor2, a VR chemistry lab with an AI tutor, using a RAG-based personalization system.
+---
+Date: 2025-04-01
+Title: Joined the Multilingual LLM project group
+Text: Fine-tuning multilingual models with LoRA/QLoRA on the PC2 OTUS HPC cluster with NVIDIA H100 GPUs.

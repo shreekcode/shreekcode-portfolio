@@ -1,0 +1,13 @@
+# SKILLS. One block per group. Items are separated by commas.
+
+Group: Languages
+Items: Python, C++, SQL, C#, Java
+---
+Group: AI / ML
+Items: PyTorch, TensorFlow, LLM Training, LoRA / QLoRA, RAG, Federated Learning, Deep Learning, Prompt Engineering
+---
+Group: MLOps & Infra
+Items: Docker, MLflow, AWS, HPC, Slurm, Linux Shell, Git
+---
+Group: Apps & Process
+Items: FastAPI, Streamlit, Data Preprocessing, JIRA, Agile & Scrum

@@ -1,0 +1,33 @@
+# EDUCATION, CERTIFICATIONS and LANGUAGES. Separate blocks with ---.
+# Type must be one of: education, certification, language
+
+Type: education
+Title: M.Sc. Computer Science
+Where: Universität Paderborn
+Date: 10/2024 – Present
+---
+Type: education
+Title: B.E. Computer Engineering
+Where: Padre Conceicao College of Engineering
+Date: 06/2019 – 07/2023
+Text: 9.34 CGPA (1.33 in the German system)
+---
+Type: certification
+Title: Getting Started with Python
+Where: Coursera
+---
+Type: certification
+Title: Joy of Computing using Python
+Where: NPTEL
+---
+Type: certification
+Title: Data Analytics with Python
+Where: NPTEL
+---
+Type: language
+Title: English
+Where: C1 · IELTS Band 8.0
+---
+Type: language
+Title: German
+Where: A2 · Grade 2.0
