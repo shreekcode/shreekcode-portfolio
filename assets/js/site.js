@@ -335,35 +335,15 @@
           $('gh-sub').innerHTML = '<span class="live-dot"></span>&nbsp; live from <a href="' + profileUrl + '" target="_blank" rel="noopener">github.com/' + esc(user) +
             '</a> · last push ' + esc(ago(own[0].pushed_at)) + ' to <b>' + esc(own[0].name) + '</b>';
         }
-        $('gh-repos').innerHTML = own.slice(0, 5).map(function (r) {
+        $('gh-repos').innerHTML = own.slice(0, 6).map(function (r) {
           var lang = r.language ? '<span><i class="lang-dot" style="background:' + (LANG_COLORS[r.language] || '#8b96ad') + '"></i>' + esc(r.language) + '</span>' : '';
           return '<a class="repo" href="' + esc(r.html_url) + '" target="_blank" rel="noopener"><div class="repo-name">' + esc(r.name) + '</div>' +
             (r.description ? '<div class="repo-desc">' + esc(r.description) + '</div>' : '') +
             '<div class="repo-meta">' + lang + '<span>★ ' + r.stargazers_count + '</span><span>updated ' + esc(ago(r.pushed_at)) + '</span></div></a>';
         }).join('') + '<a class="project-link" href="' + profileUrl + '?tab=repositories" target="_blank" rel="noopener">→ all repositories</a>';
-
-        // Latest commits from the most recently pushed repositories
-        var top = own.slice(0, 4);
-        return Promise.all(top.map(function (r) {
-          return cachedJson(api + '/repos/' + r.full_name + '/commits?per_page=5&author=' + encodeURIComponent(user))
-            .then(function (cs) { return cs.map(function (c) { c._repo = r.name; return c; }); })
-            .catch(function () { return []; });
-        }));
-      })
-      .then(function (groups) {
-        if (!groups) return;
-        var commits = [].concat.apply([], groups).sort(function (a, b) {
-          return new Date(b.commit.author.date) - new Date(a.commit.author.date);
-        }).slice(0, 7);
-        $('gh-commits').innerHTML = commits.length ? commits.map(function (c) {
-          var msg = (c.commit.message || '').split('\n')[0];
-          return '<li><span class="sha">' + esc(c.sha.slice(0, 7)) + '</span><a class="commit-msg" href="' + esc(c.html_url) + '" target="_blank" rel="noopener" title="' + esc(msg) + '">' + esc(msg) + '</a>' +
-            '<span class="commit-meta">' + esc(c._repo) + ' · ' + esc(ago(c.commit.author.date)) + '</span></li>';
-        }).join('') : '<li class="muted mono">No recent public commits.</li>';
       })
       .catch(function () {
         var msg = '<span class="muted mono">GitHub is busy right now — <a href="' + profileUrl + '" target="_blank" rel="noopener">view activity on GitHub →</a></span>';
-        $('gh-commits').innerHTML = '<li>' + msg + '</li>';
         $('gh-repos').innerHTML = msg;
         $('gh-sub').innerHTML = '<a href="' + profileUrl + '" target="_blank" rel="noopener">github.com/' + esc(user) + '</a>';
         setStat('last', '—', 'since last push');
